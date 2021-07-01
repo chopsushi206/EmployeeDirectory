@@ -13,15 +13,20 @@
 
   ## Description
 
-  Application to Render a directory of employees, that filters out sensitive information, and diplays relavant contact info. Enables employer to search or filter content through a search component.
+  [Employee Directory Live App](https://chopsushi206.github.io/employee_directory/)
+
+  Application to Render a directory of employees, that filters out sensitive information, and displays relevant contact info. Enables employer to search or filter content through a search component.
+
+  ![Main Page Screenshot](/public/screenshot.jpg)
+  ![Filter Screenshot](/public/screenshot2.jpg)
 
   ## Installation Instructions
 
-  Runs through server.js
+  n/a
   
   ## Usage
 
-  As an Employer or Manager I want to keep track of employees, and their important info while being able to filter and sort through the list of employees.
+  As an Employer or Manager I want to keep track of employees, and their important info while being able to filter and sort through the list of employees. The sort function is the "Name" header on the table. Clicking it sorts employees by ascending or descending order.
 
   ## Licenses
 
