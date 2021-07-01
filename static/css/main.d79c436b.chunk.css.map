@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/Navigation/style.css"],"names":[],"mappings":"AAAA,0BACI,kBACJ","file":"main.d79c436b.chunk.css","sourcesContent":["nav.navbar.navbar-default {\r\n    margin-bottom: 10px;\r\n}"]}
