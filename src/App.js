@@ -9,9 +9,7 @@ function App() {
         <Router>
             <div>
                 <Navigation />
-                <Route exact path="/" component={Directory} />
-                <Route exact path="/directory" component={Directory} />
-                <Form />
+                <Route path="/" component={Directory} />
             </div>
         </Router>
     );

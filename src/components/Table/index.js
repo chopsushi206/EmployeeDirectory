@@ -18,7 +18,7 @@ function Table(props) {
                 <tbody>
                     {props.Employees.map(employee => (
                         <tr key={employee.login.uuid}>
-                            <td><img src={employee.picture.thumbnail}></img></td>
+                            <td><img src={employee.picture.thumbnail} alt=""></img></td>
                             <th scope="row">{employee.name.first} {employee.name.last}</th>
                             <td><a href={'mailto:' + employee.email}>{employee.email}</a></td>
                             <td>{employee.phone}</td>
