@@ -13,11 +13,11 @@ class Directory extends Component {
 
     
     componentDidMount() {
-        this.getAllEmployees();
+        this.getEmployeeList();
     }
 
-    getAllEmployees = () => {
-        API.getAllEmployees()
+    getEmployeeList = () => {
+        API.getEmployeeList()
             .then(res =>
                 this.setState({
                     Employees: res.data.results,

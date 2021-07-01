@@ -1,29 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./style.css";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <Link className="navbar-brand" to="/">
-        Employee Directory
-      </Link>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <span className="navbar-brand"> Employee Directory</span>
       <div>
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <Link
-              to="/"
-              className={
-                window.location.pathname === "/" || window.location.pathname === "/directory"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
-            >
-              Table
-            </Link>
-          </li>
-         
-        </ul>
       </div>
     </nav>
   );
